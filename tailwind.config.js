@@ -15,6 +15,7 @@ tailwind.config = {
         },
         backgroundImage: {
             'banner': "url('./images/banner.jpg')",
+            'background': "url('./images/Background.jpg')",
             overlay : 'linear-gradient(40deg, #060606 16.68%, rgba(0, 0, 0, 0.02) 96.44%);'
           }
       }
