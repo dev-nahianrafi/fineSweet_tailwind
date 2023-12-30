@@ -7,6 +7,7 @@ tailwind.config = {
           white: '#FFF',
           itembg: '#FFF5EB',
           black: '#161722',
+          footerbg: '#161722',
         },
         maxWidth: {
             'container': '1280px',
