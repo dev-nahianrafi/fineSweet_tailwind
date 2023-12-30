@@ -6,6 +6,7 @@ tailwind.config = {
           navbg: '#0D0D0D',
           white: '#FFF',
           itembg: '#FFF5EB',
+          black: '#161722',
         },
         maxWidth: {
             'container': '1280px',
