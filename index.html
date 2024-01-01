@@ -12,75 +12,82 @@
 </head>
 <body>
     <!-- navbar start hare -->
-    <nav class="bg-navbg py-3">
-        <div class="max-w-container mx-auto">
-            <div class="flex items-center ">
-                <div class="w-[200px] relative after:absolute after:content-[''] after:w-[2px] after:h-[80px] after:bg-[#fff] after:opacity-[0.1] after:right-0 after:top-[-24px]">
+    <nav class="bg-navbg py-5 md:py-6 lg:py-3">
+        <div class="w-auto lg:max-w-[90%] 2xl:max-w-container mx-auto px-3 sm:px-5 md:px-7 lg:px-0">
+            <div class="flex items-center justify-between">
+                <div class="w-auto md:w-[200px] relative lg:after:absolute lg:after:content-[''] lg:after:w-[2px] lg:after:h-[80px] lg:after:bg-[#fff] lg:after:opacity-[0.1] lg:after:right-0 lg:after:top-[-24px]">
                     <a href="#">
-                        <img src="./images/Logo.png" alt="not found">
+                        <img class="w-[80%] sm:auto" src="./images/Logo.png" alt="not found">
                     </a>
                 </div>
-                <div class="w-[1080px] flex items-center justify-between">
-                    <ul class="flex items-center gap-x-[48px] ml-16">
-                        <li>
-                            <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">home</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">About us</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">Sermon</a>
-                        </li>
-                        <li>
-                            <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">Blog</a>
-                        </li>
-                    </ul>
-                    <a href="#" class="inline-block text-base font-roboto font-normal leading-none py-[20px] px-[48px] color-[#1C1D28] rounded-[12px] bg-[#FFD2A4]">
-                        Contact us
-                    </a>
+                <div class="block lg:hidden">
+                    <i class="fa-solid fa-bars text-xl md:2xl text-white cursor-pointer"></i>
+                </div>
+                <div class="hidden lg:block">
+                    <div class="w-auto 2xl:w-[1080px] flex items-center justify-between gap-x-20">
+                        <ul class="flex items-center gap-x-[48px] ml-16">
+                            <li>
+                                <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">home</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">About us</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">Sermon</a>
+                            </li>
+                            <li>
+                                <a href="#" class="text-base font-roboto text-[#FFF] font-normal uppercase opacity-90 hover:opacity-100">Blog</a>
+                            </li>
+                        </ul>
+                        <a href="#" class="inline-block text-base font-roboto font-normal leading-none py-[20px] px-[48px] color-[#1C1D28] rounded-[12px] bg-[#FFD2A4]">
+                            Contact us
+                        </a>
+                    </div>
                 </div>
             </div>
         </div>
     </nav>
     <!-- nav end -->
+
     <!-- banner start -->
-    <section class="bg-banner bg-no-repeat bg-center bg-cover py-32">
-        <div class="max-w-container mx-auto">
+    <section class="bg-banner bg-no-repeat bg-center bg-cover py-28 sm:py-32">
+        <div class="w-full lg:max-w-[90%] 2xl:max-w-container mx-auto px-3 sm:px-5 md-px7 lg:px-0">
             <div>
                 <h5 class="text-white font-roboto text-[16px] font-bold leading-0 uppercase mb-[16px]">Welcome to our CHURCH</h5>
-                <h1 class="w-[592px] text-white font-roboto text-[64px] font-bold leading-[82px] uppercase mb-[32px]">Become a part of our community</h1>
-                <a href="#" class="inline-block text-base font-roboto font-normal leading-none py-[24px] px-[64px] color-[#1C1D28] rounded-[12px] bg-[#FFD2A4] mb-[64px]">
+                <h1 class="w-full md:w-[592px] text-white font-roboto text-[35px] sm:text-[50px] md:text-[64px] font-bold md:leading-[82px] uppercase mb-[32px]">Become a part of our community</h1>
+                <a href="#" class="inline-block text-base font-roboto font-normal leading-none py-4 sm:py-[24px] px-8 sm:px-[64px] color-[#1C1D28] rounded-[12px] bg-[#FFD2A4] mb-[64px]">
                     Learn more
                 </a>
-                <p class="w-[308px] text-white font-roboto text-[16px] font-normal leading-[24px] ml-[32px] relative after:absolute after:content-[''] after:w-[18px] after:h-[2px] after:bg-white after:left-[-32px] after:top-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
+                <p class="w-auto sm:w-[308px] text-white font-roboto text-[16px] font-normal leading-[24px] ml-[32px] relative after:absolute after:content-[''] after:w-[18px] after:h-[2px] after:bg-white after:left-[-32px] after:top-[12px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
             </div>
         </div>
     </section>
-    <!-- banner end -->
-    <!-- items start hare -->
-    <section class="py-[128px]">
-        <div class="max-w-container mx-auto">
+    <!-- banner end
+
+    <!-- item start hare -->
+    <section class="py-[80px] md:py-[100px] xl:py-[128px]">
+        <div class="w-auto lg:max-w-[90%] 2xl:max-w-container mx-auto px-3 sm:px-5 md:px-7 lg:px-0">
             <div>
                 <h5 class="text-[#161722] font-roboto text-[16px] font-normal leading-0 uppercase text-center mb-[16px]">sub-headline</h5>
-                <h3 class="text-[#161722] font-roboto text-[48px] font-bold leading-[64px] text-center uppercase">a church that's relevant</h3>
+                <h3 class="text-[#161722] font-roboto text-[30px] sm:text-[48px] font-bold sm:leading-[64px] text-center uppercase">a church that's relevant</h3>
             </div>
                 
-            <div class="mt-[64px] flex items-center gap-x-[24px]">
-                <div class="p-20 bg-itembg w-[410px] relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
+            <div class="mt-[40px] md:mt-[50px] lg:mt-[64px] flex flex-wrap xl:flex-nowrap  items-center gap-[24px]">
+                <div class="p-12 xs:p-16 2xl:p-20 bg-itembg w-full xs:w-[410px] md:w-[46%] mx-auto md:mx-0 relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
                     <div class="h-12 w-12 bg-primary rounded-full flex items-center justify-center">
                         <i class="fa-solid fa-hands-holding-child"></i>
                     </div>
                     <h4 class="text-[#161722] font-roboto text-[32px] font-bold leading-[44px] uppercase mt-[24px]">About us</h4>
                     <p class="text-[#161722] font-roboto text-[16px] font-normal leading-[24px] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="p-20 bg-itembg w-[410px] relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
+                <div class="p-12 xs:p-16 2xl:p-20 bg-itembg w-full xs:w-[410px] md:w-[46%] mx-auto md:mx-0 relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
                     <div class="h-12 w-12 bg-primary rounded-full flex items-center justify-center">
                         <i class="fa-solid fa-wave-square"></i>
                     </div>
                     <h4 class="text-[#161722] font-roboto text-[32px] font-bold leading-[44px] uppercase mt-[24px]">Get involved</h4>
                     <p class="text-[#161722] font-roboto text-[16px] font-normal leading-[24px] mt-[8px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 </div>
-                <div class="p-20 bg-itembg w-[410px] relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
+                <div class="p-12 xs:p-16 2xl:p-20 bg-itembg w-full xs:w-[410px] md:w-[46%] mx-auto md:mx-0 relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
                     <div class="h-12 w-12 bg-primary rounded-full flex items-center justify-center">
                         <i class="fa-solid fa-hand-holding-heart"></i>
                     </div>
@@ -89,41 +96,43 @@
                 </div>
             </div>
         </div>
-    </section>
-    <!-- items end hare-->
+    </section> 
+    <!-- items end hare -->
+    
     <!-- cards start hare -->
-    <section class="pb-[128px]">
-        <div class="max-w-container mx-auto">
+    <section class="pb-[80px] md:pb-[100px] xl:pb-[128px]">
+        <div class="w-auto lg:max-w-[90%] 2xl:max-w-container mx-auto px-3 sm:px-5 md:px-7 lg:px-0">
             <div class="text-center">
                 <h5 class="text-[#161722] font-roboto text-[16px] font-normal leading-0 uppercase text-center mb-[16px]">sub-headline</h5>
-                <h3 class="text-[#161722] font-roboto text-[48px] font-bold leading-[64px] text-center uppercase">love and compassion</h3>
-                <p class="w-[846px] text-center mx-auto font-roboto text-[16px] font-normal leading-[24px] mt-[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-                <a href="#" class="inline-block text-base font-roboto font-normal leading-none py-[24px] px-[64px] color-[#1C1D28] rounded-[12px] bg-[#FFD2A4] mt-[56px]">
+                <h3 class="text-[#161722] font-roboto text-[32px] sm:text-[48px] font-bold sm:leading-[64px] text-center uppercase">love and compassion</h3>
+                <p class="sm:w-[80%] lg:w-[846px] text-center mx-auto font-roboto text-[14px] sm:text-[16px] font-normal sm:leading-[24px] mt-[28px] sm:mt-[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                <a href="#" class="inline-block text-base font-roboto font-normal leading-none py-4 sm:py-[24px] px-8 sm:px-[64px] color-[#1C1D28] rounded-[12px] bg-[#FFD2A4] mt-[50px] sm:mt-[56px]">
                     Read more
                 </a>
             </div>
-            <div class="w-[1030px] mx-auto flex gap-x-[25px]">
-                <div class="h-[384px] w-[295px] rounded-[30px] overflow-hidden">
+            <div class="w-full xl:w-[1030px] mx-auto flex flex-wrap md:flex-nowrap gap-[25px]">
+                <div class="h-[300px] md:h-[384px] w-full sm:w-[80%] mx-auto md:w-[295px] mt-[60px] md:mt-0 rounded-[30px] overflow-hidden">
                     <img class="h-full w-full object-cover" src="./images/cards_1.jpg" alt="not found">
                 </div>
-                <div class="h-[512px] w-[390px] rounded-[30px] overflow-hidden mt-[48px]">
+                <div class="h-[350px] md:h-[450px] lg:h-[512px] w-full sm:w-[80%] mx-auto md:w-[390px] rounded-[30px] overflow-hidden md:mt-[48px]">
                     <img class="h-full w-full object-cover" src="./images/cards_2.jpg" alt="not found">
                 </div>
-                <div class="h-[384px] w-[295px] rounded-[30px] overflow-hidden">
+                <div class="h-[300px] md:h-[384px] w-full sm:w-[80%] mx-auto md:w-[295px] rounded-[30px] overflow-hidden">
                     <img class="h-full w-full object-cover" src="./images/cards_3.jpg" alt="not found">
                 </div>
             </div>
             <div class="pt-[64px]">
                 <h5 class="text-[#161722] font-roboto text-[16px] font-normal leading-0 uppercase text-center mb-[16px]">our mission & vision</h5>
-                <h3 class="text-[#161722] font-roboto text-[48px] font-bold leading-[64px] text-center uppercase">celebrate WITH US</h3>
-                <p class="w-[512px] text-center mx-auto font-roboto text-[16px] font-normal leading-[24px] mt-[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3 class="text-[#161722] font-roboto text-[32px] sm:text-[48px] font-bold sm:leading-[64px] text-center uppercase">celebrate WITH US</h3>
+                <p class="sm:w-[512px] text-center mx-auto font-roboto text-[14px] sm:text-[16px]  font-normal leading-[24px] mt-[32px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
                 <a class="mt-[16px] flex justify-center items-center inline-block" href="#">Read More <i class="fa-solid fa-arrow-right ml-[8px] mt-[5px]"></i></a>
             </div>
         </div>
-    </section>
+    </section> 
     <!-- cards end hare -->
+
     <!-- crunch start hare -->
-    <section class="py-[128px] bg-[#F5F2F0]">
+    <!-- <section class="py-[128px] bg-[#F5F2F0]">
         <div class="max-w-container mx-auto">
             <div>
                 <h5 class="text-[#161722] font-roboto text-[16px] font-normal leading-0 uppercase text-center mb-[16px]">Watch and listen</h5>
@@ -160,10 +169,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- crunch end -->
     <!-- event start -->
-    <section class="py-[128px]">
+    <!-- <section class="py-[128px]">
         <div class="max-w-container mx-auto">
             <div>
                 <h5 class="text-[#161722] font-roboto text-[16px] font-normal leading-0 uppercase text-center mb-[16px]">Upcoming SERMONS</h5>
@@ -212,10 +221,10 @@
                 <a class="mt-[16px] flex justify-end items-center inline-block" href="#">View all Sermons <i class="fa-solid fa-arrow-right ml-[8px] mt-[5px]"></i></a>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- event end -->
     <!-- world around us start -->
-    <section class="py-[128px] bg-background bg-no-repeat bg-center bg-cover">
+    <!-- <section class="py-[128px] bg-background bg-no-repeat bg-center bg-cover">
         <div class="w-[768px] h-[480px] bg-[#fff] mx-auto py-[72px] pl-[48px] relative after:absolute after:content-[''] after:w-full after:h-[16px] after:bg-primary after:left-0 after:bottom-0">
             <h3 class="text-[#161722] font-roboto text-[48px] font-bold leading-[64px] uppercase w-[370px]">We want to serve the world around us</h3>
             <p class="text-[#161722] font-roboto text-[16px] font-normal leading-[24px] w-[302px] my-[16px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do.</p>
@@ -228,10 +237,10 @@
                 </picture>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- world around us end -->
     <!-- blog part start -->
-    <section class="py-[128px]">
+    <!-- <section class="py-[128px]">
         <div class="max-w-container mx-auto">
             <div>
                 <h5 class="text-[#161722] font-roboto text-[16px] font-normal leading-0 uppercase text-center mb-[16px]">Read our Blog</h5>
@@ -268,10 +277,10 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
     <!-- blog part end -->
     <!-- footer start hare -->
-    <footer class="py-[64px] bg-footerbg">
+    <!-- <footer class="py-[64px] bg-footerbg">
         <div class="max-w-container mx-auto">
             <div class="flex">
                 <div>
@@ -331,7 +340,7 @@
                 </div>
             </div>
         </div>
-    </footer>
+    </footer> -->
     <!-- footer end -->
 
 
